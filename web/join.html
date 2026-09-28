@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>加入我们 - 阳光社区园艺俱乐部</title>
+  <meta name="description" content="填写申请表加入阳光社区园艺俱乐部，一起体验种植乐趣，共建绿色社区。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="main-nav" aria-label="主导航">
+      <div class="logo">阳光园艺俱乐部</div>
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li><a href="guides.html">园艺指南</a></li>
+        <li><a href="events.html">活动日历</a></li>
+        <li><a href="join.html">加入我们</a></li>
+        <li><a href="resources.html">资源分享</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>加入我们</h2>
+
+    <figure>
+      <img src="images/join-form.jpg" alt="志愿者正在给新会员讲解俱乐部规则，桌上摆放着种植工具包">
+      <figcaption>图1 新会员入会登记现场</figcaption>
+    </figure>
+
+    <p>填写下方申请表，我们会在3个工作日内与您联系。</p>
+
+    <form class="join-form" action="#" method="post">
+      <div class="form-group">
+        <label for="name">姓名</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">联系邮箱</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="interest">感兴趣的方向</label>
+        <select id="interest" name="interest">
+          <option value="vegetable">蔬菜种植</option>
+          <option value="flower">花卉养护</option>
+          <option value="volunteer">志愿服务</option>
+          <option value="activity">活动策划</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">个人介绍/留言</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+
+      <button type="submit">提交申请</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 阳光社区园艺俱乐部 | 联系邮箱：contact@sunnydalegarden.org</p>
+  </footer>
+</body>
+</html>

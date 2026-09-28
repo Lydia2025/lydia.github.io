@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML属性 vs CSS对比演示</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h3>① 使用HTML attribute（标签属性）实现样式</h3>
+    <!-- table原生HTML attribute：width、bgcolor、border、height、align -->
+    <table width="300" bgcolor="#4285f4" border="3">
+        <tr>
+            <td height="120" align="center">
+                <span style="color:white;font-size:20px;">HTML Attribute 设置样式</span>
+            </td>
+        </tr>
+    </table>
+        <table width="300" bgcolor="#4285f4" border="3">
+        <tr>
+            <td height="120" align="center">
+                <span style="color:white;font-size:20px;">HTML Attribute 设置样式</span>
+            </td>
+        </tr>
+    </table>
+        <table width="300" bgcolor="#4285f4" border="3">
+        <tr>
+            <td height="120" align="center">
+                <span style="color:white;font-size:20px;">HTML Attribute 设置样式</span>
+            </td>
+        </tr>
+    </table>
+        <table width="300" bgcolor="#4285f4" border="3">
+        <tr>
+            <td height="120" align="center">
+                <span style="color:white;font-size:20px;">HTML Attribute 设置样式</span>
+            </td>
+        </tr>
+    </table>
+    
+
+    <h3>② 使用CSS实现完全相同视觉效果</h3>
+    <div class="css-box">
+        789
+    </div>
+
+
+    <div style="margin-top:40px;">
+        <h4>核心区别总结：</h4>
+        <ul>
+            <li>HTML attribute：写在标签尖括号内，属于HTML语法；很多旧样式属性在div上直接失效，仅部分旧标签兼容</li>
+            <li>CSS：专门负责外观，HTML只管页面内容；结构与样式分离，所有标签通用，现代网页推荐</li>
+            <li>style="xxx" 是特殊的HTML attribute，里面写CSS语法，叫做内联样式</li>
+        </ul>
+    </div>
+</body>
+</html>
+
